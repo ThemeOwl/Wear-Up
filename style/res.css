@@ -160,7 +160,7 @@
 
 @media screen and (max-width: 800px){
     .front-section{
-        width: 100vw;
+        width: 85vw;
     }
     .slider-container,.categories-container,
     .subscribe-container,.footer-section,.small-footer,
@@ -195,6 +195,70 @@
         font-size: .7rem;
     }
 }
+@media screen and (max-width: 690px){
+    .search-bar{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .categories h2{
+        display: block;
+    }
+    .header-container2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        align-items:flex-start;
+        padding: 0rem 0rem 0rem 0rem;
+        transform: translate(-100%);
+        z-index: 1;
+    }
+    .star{
+        margin: 0px 0px 0px 0px;
+    }
+    .ul-res{
+        display: block;
+    }
+    .search-head{
+        display: flex;
+        transition: .5s ease;
+    }
+    .header-right ul li{
+        display: none;
+    }
+    .header-right ul li:not(.cart){
+        display: none;
+    }
+    .menu-show{
+        transform: translate(0);
+        transition: .5s ease-in-out;
+    }
+    .show-input{
+        display: none;
+        transition: .5s ease;
+    }
+    .categories{
+        padding: 0rem 1rem 0rem .5rem;
+    }
+    .categories ul{
+        list-style-type: none;
+    }
+    .categories ul li{
+        width: 100%;
+        float: none;   
+        font-size: 1.15rem;
+        margin-top: 1rem;
+        border-bottom: 1px solid #3E3B3B;
+        padding-bottom: .2em;
+    }
+    .categories ul li a{
+        margin-left: 0.1rem;
+    }
+}
+
 
 @media screen and (max-width: 650px){
     .categories-container,
@@ -308,13 +372,49 @@
         font-size: 2rem;
     }
 }
-@media screen and (max-width: 430px){
+@media screen and (max-width: 470px){
+    .search-head input{
+        padding: 0.2rem .5rem 0.2rem .9rem;   
+        margin-right: 1px;
+        margin-top: 3px;
+    }
+    .search-btn-head{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .header-container1{
+        padding: .3rem 1.2rem;
+    }
+    .header-container1 h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: capitalize; 
+    }
+    .categories ul li a{
+        font-size: .8em;
+        margin-left: .7rem;   
+    }
+    .header-right ul li{
+        padding-right: 1rem;
+    }
+    .header-right ul li a{
+        font-size: .8em;
+    }
     .offer{
         top: 2.5rem;
         right: 1rem;
     }
 }
 @media screen and (max-width: 395px){
+    .search-head input{
+        padding: 0.2rem .2rem 0.2rem .2rem;  
+        font-size: .8rem; 
+    }
+    .search-btn-head{
+        margin-right: 0px;
+    }
     .slider-container{
         height: 30vh  
     }
