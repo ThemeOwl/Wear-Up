@@ -29,6 +29,10 @@ header{
     font-weight: 500;
     text-transform: capitalize; 
 }
+.header-container1 h2 a{
+    text-decoration: none;
+    color: #000000;
+}
 .header-right{
     display: flex;
     align-items: center;
