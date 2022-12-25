@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/men.css">
-    <link rel="stylesheet" href="/style/res.css">
+    <link rel="stylesheet" href="style/res.css">
+    <!-- Aos Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Aos Library -->
     <title>Wear up</title>
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header >
         <!-- first header -->
         <div class="header-container1">
             <h2><a href="index.html">wear up</a></h2>
@@ -28,7 +32,8 @@
                 </ul>
                 <div class="search-head">
                 </div>
-               <button class="burger-btn"><span class="iconify burger" data-icon="system-uicons:menu-hamburger"></span></button> 
+                <button class="burger-btn"><span class="iconify burger"
+                        data-icon="system-uicons:menu-hamburger"></span></button>
             </div>
         </div>
         <!-- Second header -->
@@ -40,7 +45,8 @@
                     <li><a href="women.html">women</a></li>
                     <li><a href="kid.html">kids</a></li>
                     <li><a href="access.html">accessories</a></li>
-                    <li><a href="new.html">new arrivals</a><span class="iconify star" data-icon="emojione:star"></span></li>
+                    <li><a href="new.html">new arrivals</a><span class="iconify star" data-icon="emojione:star"></span>
+                    </li>
                 </ul>
                 <ul class="ul-res">
                     <li><a href="">sign in</a></li>
@@ -244,7 +250,7 @@
             <a href="#">4</a>
             <a href="#">5</a>
             <a href="#" class="pag-icon">&raquo;</a>
-          </div>
+        </div>
     </div>
 
     <!-- subscribe section start -->
@@ -322,12 +328,19 @@
         </div>
     </div>
     <div class="design-by">
-        <h5>designed by <span>themeOwl ©</span></h5>
+        <h5>designed by <span>Team </span></h5>
     </div>
 
     <!-- javascript -->
     <script src="./js/men.js"></script>
-    <script src="./js/app.js"></script>    
+    <script src="./js/app.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+        });
+    </script>
+    <!-- javascript -->
 </body>
 
 </html>

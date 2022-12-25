@@ -10,13 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/men.css">
-    <link rel="stylesheet" href="/style/res.css">
+    <link rel="stylesheet" href="style/res.css">
+    <!-- Aos Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Aos Library -->
     <title>Wear up</title>
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header data-aos="fade-down">
         <!-- first header -->
         <div class="header-container1">
             <h2><a href="index.html">wear up</a></h2>
@@ -54,7 +57,7 @@
         </div>
     </header>
     <!-- caterogies & price -->
-    <div class="men-categories">
+    <div class="men-categories" data-aos="fade-up">
         <div class="men-select">
             <p>home</p>
             <span class="iconify" data-icon="fe:arrow-right"></span>
@@ -78,7 +81,7 @@
         </div>
     </div>
     <!-- optoions like all -->
-    <div class="optional-section">
+    <div class="optional-section" data-aos="fade-up">
         <div class="option-name">
             <ul>
                 <li><a href="">all</a></li>
@@ -92,7 +95,7 @@
     <!-- mens-varity -->
     <div class="men-section">
         <div class="men-container">
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-left">
                 <div class="men-img">
                     <img src="Images/w12.jpg" alt="">
                 </div>
@@ -108,7 +111,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-left">
                 <div class="men-img">
                     <img src="Images/w11.jpg" alt="">
                 </div>
@@ -124,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-left">
                 <div class="men-img">
                     <img src="Images/w1.jpg" alt="">
                 </div>
@@ -140,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-right">
                 <div class="men-img">
                     <img src="Images/w10.jpg" alt="">
                 </div>
@@ -156,7 +159,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-right">
                 <div class="men-img">
                     <img src="Images/w9.jpg" alt="">
                 </div>
@@ -172,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-right">
                 <div class="men-img">
                     <img src="Images/w8.jpg" alt="">
                 </div>
@@ -188,7 +191,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-left">
                 <div class="men-img">
                     <img src="Images/w6.jpg" alt="">
                 </div>
@@ -204,7 +207,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-left">
                 <div class="men-img">
                     <img src="Images/w5.jpg" alt="">
                 </div>
@@ -220,7 +223,7 @@
                     </div>
                 </div>
             </div>
-            <div class="men-box">
+            <div class="men-box" data-aos="flip-left">
                 <div class="men-img">
                     <img src="Images/w7.jpg" alt="">
                 </div>
@@ -249,7 +252,7 @@
 
     <!-- subscribe section start -->
     <div class="subscribe-section">
-        <div class="subscribe-container">
+        <div class="subscribe-container" data-aos="flip-up">
             <div class="subscribe-txt">
                 <h4>be the first</h4>
                 <p>New arrivals. Exclusive previews. First
@@ -266,14 +269,14 @@
     <!-- footer-section start -->
     <footer>
         <div class="footer-section">
-            <div class="footer-1">
+            <div class="footer-1" data-aos="zoom-in-right">
                 <h1><a href="./index.html">wear up</a></h1>
                 <h5>need help ?</h5>
                 <button class="contact-btn">contact</button>
                 <h5>uan: +1234567890</h5>
                 <p>mon-fri 9:00 to 5.30 pst</p>
             </div>
-            <div class="footer-2">
+            <div class="footer-2" data-aos="zoom-in-right">
                 <h5>customer service</h5>
                 <div class="footer-services">
                     <ul>
@@ -286,7 +289,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-3">
+            <div class="footer-3" data-aos="zoom-in-left">
                 <h5>my account</h5>
                 <div class="footer-services">
                     <ul>
@@ -297,7 +300,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-4">
+            <div class="footer-4" data-aos="zoom-in-left">
                 <h5>about wear up</h5>
                 <div class="footer-services">
                     <ul>
@@ -322,12 +325,20 @@
         </div>
     </div>
     <div class="design-by">
-        <h5>designed by <span>themeOwl ©</span></h5>
+        <h5>designed by <span>Team</span></h5>
     </div>
 
     <!-- javascript -->
     <script src="js/men.js"></script>
     <script src="js/app.js"></script>    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration:1000,
+        });
+    </script>
+    <!-- javascript -->
 </body>
 
 </html>
