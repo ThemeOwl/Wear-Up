@@ -1,132 +1,149 @@
-
-
-.signin-section{
-    height: 100vh;
+.signin-section {
+  height: 100vh;
 }
-.signin-img{
-    height: 100vh;
-    width: auto;
-    display: flex;
+.signin-img {
+  height: 100vh;
+  width: auto;
+  display: flex;
 }
-.signin-img img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.signin-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-.signin-img{
-    filter: contrast(60%);
+.signin-img {
+  filter: contrast(60%);
 }
-.signin-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.signin-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.signin-bar{
-    width: 35%;
-    padding: 2.5rem 4rem;
-    background-color: #dadadaad;
-    border-radius: 5px;
+.signin-bar {
+  width: 35%;
+  padding: 2.5rem 4rem;
+  background-color: #dadadaad;
+  border-radius: 5px;
 }
-.signin-bar h2{
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 2.1rem;
+.signin-bar h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.1rem;
 }
-.signin-bar p{
-    color: #312f2f;
-    text-align: center;
-    font-weight: 400;
-    font-size: .9rem;
-    line-height: 19px;
-    padding-bottom: 15px;
+.signin-bar p {
+  color: #312f2f;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 19px;
+  padding-bottom: 15px;
 }
-.signin-bar ul{
-    list-style-type: none;
-    display: block;
+.signin-bar ul {
+  list-style-type: none;
+  display: block;
 }
-.signin-bar ul li{
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    padding: 1rem;
-    border: 1px solid #312f2f;
-    margin-top: 8px;
-    transition: .5s ease;
-    justify-content: center;
-    align-items: center;
+.signin-bar ul li {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem;
+  border: 1px solid #312f2f;
+  margin-top: 8px;
+  transition: 0.5s ease;
+  justify-content: center;
+  align-items: center;
 }
-.signin-bar ul li:hover{
-    background-color: #dfdcdc;
-    border:1px solid #dfdcdc;
+.signin-bar ul li:hover {
+  background-color: #dfdcdc;
+  border: 1px solid #dfdcdc;
 }
-.signin-bar ul li a{
-    font-size:1.2rem;
-    font-weight: 400;
-    text-decoration: none;
-    color: #312f2f;
-    word-spacing: 2px;
+.signin-bar ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #312f2f;
+  word-spacing: 2px;
 }
-.signin-icon{
-    font-size: 1rem;
-    margin-right: .5rem;
+.signin-icon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
 }
-.signin-bar h5{
-    text-align: center;
-    margin-top: 10px;
+.signin-bar h5 {
+  text-align: center;
+  margin-top: 10px;
 }
-.signin-bar h5 span{
-    color: rgb(2, 85, 2);
+.signin-bar h5 span {
+  color: rgb(2, 85, 2);
 }
 
+.signup_box {
+  /* border: 1px solid red; */
+  display: inline-block;
+}
+.signup_box input {
+  width: 100%;
+  display: inline-block;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.signupbtn, .signinbtn {
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #FFD233;
+}
 /* rsponisve signin */
-@media screen and (max-width: 1185px){
-    .signin-bar{
-        padding: 2.5rem 4rem;
-    }
-    .signin-bar ul li a{
-        font-size:1rem;
-        word-spacing: 1px;
-    }
+@media screen and (max-width: 1185px) {
+  .signin-bar {
+    padding: 2.5rem 4rem;
+  }
+  .signin-bar ul li a {
+    font-size: 1rem;
+    word-spacing: 1px;
+  }
 }
-@media screen and (max-width: 1030px){
-    .signin-bar{
-        width: 70%;
-        padding: 4rem 4rem 5rem 4rem;
-    }
+@media screen and (max-width: 1030px) {
+  .signin-bar {
+    width: 70%;
+    padding: 4rem 4rem 5rem 4rem;
+  }
 }
-@media screen and (max-width: 520px){
-    .signin-bar{
-        width: 90%;
-        padding: 4rem 4rem 5rem 4rem;
-    }
-    .signin-bar h2{
-        font-size: 1.8rem;
-    }
-    .signin-bar p{
-        font-size: .7rem;
-        font-weight: 500;
-    }
-    .signin-bar ul li{
-        padding: .5rem;
-    }
-    .signin-bar ul li a{
-        font-size:.8rem;
-    }
-    .signin-icon{
-        font-size: .8rem;
-    }
+@media screen and (max-width: 520px) {
+  .signin-bar {
+    width: 90%;
+    padding: 4rem 4rem 5rem 4rem;
+  }
+  .signin-bar h2 {
+    font-size: 1.8rem;
+  }
+  .signin-bar p {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  .signin-bar ul li {
+    padding: 0.5rem;
+  }
+  .signin-bar ul li a {
+    font-size: 0.8rem;
+  }
+  .signin-icon {
+    font-size: 0.8rem;
+  }
 }
-@media screen and (max-width: 390px){
-    .signin-bar{
-        width: 90%;
-        padding: 3rem 4rem 3rem 4rem;
-    }
-    .signin-bar h2{
-        font-size: 1.5rem;
-    }
+@media screen and (max-width: 390px) {
+  .signin-bar {
+    width: 90%;
+    padding: 3rem 4rem 3rem 4rem;
+  }
+  .signin-bar h2 {
+    font-size: 1.5rem;
+  }
 }
